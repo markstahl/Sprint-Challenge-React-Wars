@@ -1,8 +1,12 @@
+@import url(https://www.fontspace.com/shyfoundry/sf-distant-galaxy?);
+
 .App {
   text-align: center;
 }
 .Header {
+  font-family: 'Distant Galaxy', arial;
+  font-size: 80px;
+  text-shadow: 4px 4px 4px #aaa;
   color: #443e3e;
-  text-shadow: 1px 1px 5px #fff;
 }
 /* write your parent styles in here for your App.js */

@@ -1,0 +1,9 @@
+.card {
+    background: linear-gradient(rgb(75, 75, 75), rgb(0, 0, 0));
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px #000010;
+    opacity: 0.6;
+  }
