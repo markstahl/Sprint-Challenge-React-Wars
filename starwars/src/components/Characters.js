@@ -8,7 +8,7 @@ export default function CharacterArray() {
 
   useEffect(() => {
     axios
-      .get('https://swapi.co/api/people/')
+      .get('https://swapi.py4e.com/api/people')
       .then(res => {
         console.log(res.data);
         setCharacter(res.data.results);
@@ -25,7 +25,7 @@ export default function CharacterArray() {
               key={props.name}
               name={props.name}
               gender={props.gender}
-              birth_year={props.nirth_year}
+              birth_year={props.birth_year}
               hair_color={props.hair_color}
               eye_color={props.eye_color}
               mass={props.mass}
